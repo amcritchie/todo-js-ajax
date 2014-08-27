@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root :to => "home#show"
+  root :to => "todos#new"
+  resources :todos
 end
